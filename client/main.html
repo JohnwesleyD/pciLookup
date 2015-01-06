@@ -44,52 +44,94 @@
 <div class="header">
 
 </div>
-<div class="contentPage">
+<div class="contentPage" style="margin: 0 auto; position: relative;">
 	<paper-checkbox checked></paper-checkbox>
-	<div class="container" style="width: 785px !important;">
-
-
-		<div class="companyLogoDIV">
-			<img src="/images/pcilookup-logo-rgb.png" alt="PCI Lookup" class="companyLogo">
-		</div>
-
-
-		<div style="width: 100%;">
-			<search-inputElement></search-inputElement>
-		</div>
+	<div class="container" style="margin: 0 auto; position: relative;">
 
 		<div style="background-color: rgb(227, 227, 227); width: 100%;">
-			<div class="row" style="">
-				<div class="col-sm-6">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="companyLogoDIV">
+						<img src="/images/pcilookup-logo-rgb.png" alt="PCI Lookup" class="companyLogo">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<search-inputElement></search-inputElement>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
 					<paper-shadow class="queryCard" z="1">
 						<div>
-							<div ><span>Query</span> <span>Find</span></div>
-							<div class="first-row">a 3rd-Party Service Provider name the PCI Controls they can outsource</div>
+							<div class="row">
+								<div class="col-md-3 col-xs-3"><p class="paragraphHeadingBlue">Query</p></div>
+								<div class="col-md-9 col-xs-9">a 3rd-Party Service Provider name</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3 col-xs-3"><p class="paragraphHeadingOrange">Find</p></div>
+								<div class="col-md-9 col-xs-9">the PCI Controls they can outsource</div>
+							</div>
+							<!--<div class="row">-->
+								<!--<div class="col-md-12">-->
+									<!--<div class="spacer"></div>-->
+								<!--</div>-->
+							<!--</div>-->
+							<div class="row">
+								<div class="col-md-3 col-xs-3"><p class="paragraphHeadingBlue">Query</p></div>
+								<div class="col-md-9 col-xs-9">a PCI Control or Service</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3 col-xs-3"><p class="paragraphHeadingOrange">Find</p></div>
+								<div class="col-md-9 col-xs-9">the Providers who can provide it</div>
+							</div>
+							<!--<div class="row">-->
+								<!--<div class="col-md-12">-->
+									<!--<div class="spacer"></div>-->
+								<!--</div>-->
+							<!--</div>-->
+							<div class="row">
+								<div class="col-md-3 col-xs-3"><p class="paragraphHeadingBlue">Query</p></div>
+								<div class="col-md-9 col-xs-9">a 3rd-Party Service Provider name</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3 col-xs-3"><p class="paragraphHeadingOrange">Find</p></div>
+								<div class="col-md-9 col-xs-9">their services and AOC/certification</div>
+							</div>
 						</div>
-						<div class="spacer"></div>
-						<div ><span style="width: 15%;">Query</span> a PCI Control or Service</div>
-						<div >Find the Providers who can provide it</div>
-						<div class="spacer"></div>
-						<div >Query Find</div>
-						<div class="first-row">a 3rd-Party Service Provider name the PCI Controls they can outsource</div>
 					</paper-shadow>
 				</div>
-				<div class="col-sm-6">
-					<div>
-						<paper-shadow class="card" z="1">
-							z = 0 (Community)
-						</paper-shadow>
-						<paper-shadow class="card" z="1">
-							z = 0 (Registration)
-						</paper-shadow>
-					</div>
-					<div>
-						<paper-shadow class="card" z="1">
-							z = 0 (Notification)
-						</paper-shadow>
-						<paper-shadow class="card" z="1">
-							z = 0 (Advertising)
-						</paper-shadow>
+				<div class="col-md-6">
+					<div class="companyActivitiesDIV">
+						<div style="width: 103%; margin-left: 5%;">
+							<paper-shadow class="card" z="1">
+								<div>
+									<p class="paragraphHeadingBlue">Community</p>
+									<p>Help us record this PCI fact base and helpful data</p>
+								</div>
+							</paper-shadow>
+							<paper-shadow class="card" z="1">
+								<div>
+									<p class="paragraphHeadingBlue">Registration</p>
+									<p>Officially record your company’s Certifications and Controls</p>
+								</div>
+							</paper-shadow>
+						</div>
+						<div style="width: 103%; margin-left: 5%;">
+							<paper-shadow class="card" z="1">
+								<div>
+									<p class="paragraphHeadingBlue">Notification</p>
+									<p>Know when Provider AOCs or Controls change</p>
+								</div>
+							</paper-shadow>
+							<paper-shadow class="card" z="1">
+								<div>
+									<p class="paragraphHeadingBlue">Advertising</p>
+									<p>Efficiently reach people implementing PCI solutions</p>
+								</div>
+							</paper-shadow>
+						</div>
 					</div>
 				</div>
 			</div>
